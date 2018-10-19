@@ -1,3 +1,7 @@
+// modules
+
+const colors = require('colors')
+
 // utility
 
 let score = 0
@@ -5,11 +9,11 @@ let total = 10
 
 const assert = ({ name, condition, input, output, expected, actual }) => {
   if (condition) {
-    console.log(`${name} ✔`)
+    console.log(`${name} ✔`.green)
     score++
     console.log(`${score} of ${total} tasks complete\n`)
   } else {
-    console.log(`${name} ✘`)
+    console.log(`${name} ✘`.red)
     if (input)    console.log(`          input: ${input}`)
     if (output)   console.log(`         output: ${output}`)
     if (expected) console.log(`expected output: ${expected}`)

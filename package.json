@@ -1,0 +1,23 @@
+{
+  "name": "array-prototype-test",
+  "version": "1.0.0",
+  "description": "An interactive coding test created for a friend.",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node main.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aryyya/array-prototype-test.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/aryyya/array-prototype-test/issues"
+  },
+  "homepage": "https://github.com/aryyya/array-prototype-test#readme",
+  "dependencies": {
+    "colors": "^1.3.2"
+  }
+}
